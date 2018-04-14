@@ -1,0 +1,52 @@
+
+body{
+	background: url(../image/homebgp.jpeg) fixed;
+	background-size: cover;
+	background-color: black;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+h1{
+	text-align: center;
+	color: white;
+	font-family: 'Poiret One', cursive;
+	position: relative;
+	top:25%; 
+	font-size: 150px;	
+	font-weight: bolder;
+}
+
+
+/*______NAV. BAR________________________________________________*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display:inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px 18px;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.other{
+    float: right;
+}
+
+a:hover{
+    color: #72D60E;
+}
+
+
